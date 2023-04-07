@@ -1,15 +1,14 @@
 class Retângulo:
-
+    
+    def __init__(self):
+        self.largura = 0
+        self.altura = 0
+        
     def area(self):
-        return self.l * self.a
-
-def membros_retângulo(r):
-    r.l = 0
-    r.a = 0
-
+        return self.largura * self.altura
+        
 r1 = Retângulo()
-membros_retângulo(r1)
-r1.l = 5
-r1.a = 6
+r2 = Retângulo()
+r3 = Retângulo()
 
 print(r1.area())
