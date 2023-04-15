@@ -10,7 +10,7 @@ class A:
         print("The value is being written")
         self._var: int = x
 
-    var = property(fget=_get_var, fset=_set_var)
+    var = property(fget=_get_var, fset=_set_var, )
 
 
 a = A()
